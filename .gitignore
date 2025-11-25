@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+nest-email-gateway/node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+frontend/.env
+nest-email-gateway/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+nest-email-gateway/minikube-linux-amd64

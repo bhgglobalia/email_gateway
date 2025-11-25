@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1764046776172" clover="3.2.0">
+  <project timestamp="1764046776173" name="All files">
+    <metrics statements="729" coveredstatements="685" conditionals="600" coveredconditionals="457" methods="106" coveredmethods="95" elements="1435" coveredelements="1237" complexity="0" loc="729" ncloc="729" packages="19" files="33" classes="33"/>
+    <package name="src">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="app.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/app.controller.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="app.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/app.service.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.auth">
+      <metrics statements="92" coveredstatements="87" conditionals="67" coveredconditionals="53" methods="11" coveredmethods="10"/>
+      <file name="auth.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/auth/auth.controller.ts">
+        <metrics statements="20" coveredstatements="19" conditionals="16" coveredconditionals="12" methods="4" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="22" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+      <file name="auth.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/auth/auth.service.ts">
+        <metrics statements="66" coveredstatements="62" conditionals="49" coveredconditionals="39" methods="6" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="9" type="cond" truecount="6" falsecount="2"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="26" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="39" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="57" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="59" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="61" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="87" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="90" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="118" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="121" count="2" type="stmt"/>
+        <line num="122" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="125" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="126" count="1" type="stmt"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+        <line num="134" count="1" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+      </file>
+      <file name="jwt-auth.guard.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/auth/jwt-auth.guard.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.auth.dto">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="change-password.dto.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/auth/dto/change-password.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="login.dto.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/auth/dto/login.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.clients">
+      <metrics statements="47" coveredstatements="47" conditionals="40" coveredconditionals="32" methods="10" coveredmethods="10"/>
+      <file name="clients.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/clients/clients.controller.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="5" type="cond" truecount="3" falsecount="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+      <file name="clients.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/clients/clients.service.ts">
+        <metrics statements="32" coveredstatements="32" conditionals="28" coveredconditionals="22" methods="7" coveredmethods="7"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="6" falsecount="2"/>
+        <line num="12" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="51" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="54" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.clients.dto">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="create-client.dto.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/clients/dto/create-client.dto.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.config">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="oauth.config.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/config/oauth.config.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities">
+      <metrics statements="44" coveredstatements="41" conditionals="28" coveredconditionals="21" methods="3" coveredmethods="0"/>
+      <file name="client.entity.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/entities/client.entity.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="14" count="13" type="stmt"/>
+        <line num="17" count="13" type="stmt"/>
+        <line num="20" count="13" type="stmt"/>
+        <line num="23" count="13" type="cond" truecount="3" falsecount="1"/>
+      </file>
+      <file name="event.entity.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/entities/event.entity.ts">
+        <metrics statements="15" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="45" count="6" type="stmt"/>
+      </file>
+      <file name="mailbox.entity.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/entities/mailbox.entity.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="12" coveredconditionals="9" methods="1" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="19" count="13" type="stmt"/>
+        <line num="21" count="13" type="stmt"/>
+        <line num="24" count="13" type="stmt"/>
+        <line num="27" count="13" type="stmt"/>
+        <line num="30" count="13" type="stmt"/>
+        <line num="33" count="13" type="stmt"/>
+        <line num="36" count="13" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="13" type="cond" truecount="3" falsecount="1"/>
+        <line num="43" count="13" type="stmt"/>
+        <line num="46" count="13" type="cond" truecount="3" falsecount="1"/>
+        <line num="49" count="13" type="cond" truecount="3" falsecount="1"/>
+      </file>
+      <file name="user.entity.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/entities/user.entity.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="3" falsecount="1"/>
+      </file>
+    </package>
+    <package name="src.events">
+      <metrics statements="53" coveredstatements="53" conditionals="57" coveredconditionals="49" methods="6" coveredmethods="6"/>
+      <file name="events.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/events/events.controller.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="29" coveredconditionals="25" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="7" type="cond" truecount="3" falsecount="1"/>
+        <line num="23" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+      </file>
+      <file name="events.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/events/events.service.ts">
+        <metrics statements="31" coveredstatements="31" conditionals="28" coveredconditionals="24" methods="3" coveredmethods="3"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="6" falsecount="2"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="44" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="50" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="53" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="62" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.events.dto">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
+      <file name="create-event.dto.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/events/dto/create-event.dto.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="38" count="1" type="cond" truecount="3" falsecount="1"/>
+      </file>
+    </package>
+    <package name="src.health">
+      <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="health.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/health/health.controller.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="6" falsecount="2"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mail">
+      <metrics statements="67" coveredstatements="57" conditionals="77" coveredconditionals="55" methods="11" coveredmethods="9"/>
+      <file name="mail.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/mail/mail.controller.ts">
+        <metrics statements="24" coveredstatements="20" conditionals="18" coveredconditionals="13" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+      </file>
+      <file name="mail.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/mail/mail.service.ts">
+        <metrics statements="43" coveredstatements="37" conditionals="59" coveredconditionals="42" methods="8" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="30" count="6" type="cond" truecount="6" falsecount="2"/>
+        <line num="31" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="57" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="102" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="103" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="117" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="122" count="2" type="stmt"/>
+        <line num="134" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="135" count="2" type="stmt"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="149" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="151" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mail.dto">
+      <metrics statements="14" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="send-mail.dto.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/mail/dto/send-mail.dto.ts">
+        <metrics statements="14" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mailboxes">
+      <metrics statements="169" coveredstatements="149" conditionals="166" coveredconditionals="113" methods="13" coveredmethods="13"/>
+      <file name="mailboxes.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/mailboxes/mailboxes.controller.ts">
+        <metrics statements="114" coveredstatements="97" conditionals="98" coveredconditionals="65" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="15" type="cond" truecount="6" falsecount="2"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="83" count="5" type="stmt"/>
+        <line num="84" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="89" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="90" count="5" type="stmt"/>
+        <line num="91" count="5" type="stmt"/>
+        <line num="93" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="95" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="102" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="106" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="107" count="1" type="stmt"/>
+        <line num="124" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="126" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="128" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="135" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="139" count="1" type="stmt"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="141" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="142" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="146" count="1" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="157" count="1" type="stmt"/>
+        <line num="161" count="1" type="stmt"/>
+        <line num="166" count="4" type="stmt"/>
+        <line num="167" count="4" type="stmt"/>
+        <line num="169" count="4" type="stmt"/>
+        <line num="170" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="171" count="1" type="stmt"/>
+        <line num="173" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="177" count="1" type="stmt"/>
+        <line num="178" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="182" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="183" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="186" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="187" count="1" type="stmt"/>
+        <line num="188" count="1" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="194" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="196" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="197" count="3" type="stmt"/>
+        <line num="198" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="199" count="3" type="stmt"/>
+        <line num="200" count="3" type="stmt"/>
+        <line num="201" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="202" count="2" type="stmt"/>
+        <line num="203" count="2" type="stmt"/>
+        <line num="204" count="2" type="stmt"/>
+        <line num="205" count="2" type="stmt"/>
+        <line num="206" count="2" type="stmt"/>
+        <line num="207" count="2" type="stmt"/>
+        <line num="208" count="2" type="stmt"/>
+        <line num="209" count="2" type="stmt"/>
+        <line num="210" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="212" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="215" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="217" count="0" type="stmt"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="219" count="0" type="stmt"/>
+        <line num="220" count="0" type="stmt"/>
+        <line num="221" count="0" type="stmt"/>
+        <line num="222" count="0" type="stmt"/>
+        <line num="224" count="1" type="stmt"/>
+        <line num="225" count="1" type="stmt"/>
+        <line num="228" count="2" type="stmt"/>
+        <line num="233" count="1" type="stmt"/>
+        <line num="234" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="235" count="1" type="cond" truecount="1" falsecount="2"/>
+        <line num="236" count="1" type="stmt"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="240" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="241" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="243" count="0" type="stmt"/>
+        <line num="251" count="0" type="stmt"/>
+        <line num="257" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="258" count="1" type="stmt"/>
+      </file>
+      <file name="mailboxes.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/mailboxes/mailboxes.service.ts">
+        <metrics statements="55" coveredstatements="52" conditionals="68" coveredconditionals="48" methods="6" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="10" type="cond" truecount="6" falsecount="2"/>
+        <line num="12" count="10" type="cond" truecount="3" falsecount="1"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="43" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="78" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="80" count="4" type="cond" truecount="2" falsecount="2"/>
+        <line num="86" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="88" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="89" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="91" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="96" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="99" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="105" count="3" type="stmt"/>
+        <line num="106" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="107" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="109" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="113" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="115" count="1" type="cond" truecount="4" falsecount="1"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="120" count="1" type="stmt"/>
+        <line num="124" count="1" type="stmt"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="128" count="2" type="stmt"/>
+        <line num="137" count="2" type="stmt"/>
+        <line num="138" count="2" type="stmt"/>
+        <line num="142" count="2" type="stmt"/>
+        <line num="143" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mailboxes.dto">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="oauth-callback-query.dto.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/mailboxes/dto/oauth-callback-query.dto.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="oauth-redirect-query.dto.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/mailboxes/dto/oauth-redirect-query.dto.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.settings">
+      <metrics statements="48" coveredstatements="46" conditionals="23" coveredconditionals="16" methods="20" coveredmethods="18"/>
+      <file name="settings.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/settings/settings.controller.ts">
+        <metrics statements="24" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="12" type="cond" truecount="3" falsecount="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+      </file>
+      <file name="settings.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/settings/settings.service.ts">
+        <metrics statements="24" coveredstatements="23" conditionals="19" coveredconditionals="13" methods="12" coveredmethods="11"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="12" type="cond" truecount="3" falsecount="1"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="62" count="1" type="cond" truecount="1" falsecount="2"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.system">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="system.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/system/system.controller.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+      </file>
+      <file name="system.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/system/system.service.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.webhooks">
+      <metrics statements="46" coveredstatements="46" conditionals="62" coveredconditionals="54" methods="3" coveredmethods="3"/>
+      <file name="webhooks.controller.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/webhooks/webhooks.controller.ts">
+        <metrics statements="46" coveredstatements="46" conditionals="62" coveredconditionals="54" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="10" type="cond" truecount="6" falsecount="2"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="4" type="cond" truecount="6" falsecount="0"/>
+        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="2" type="cond" truecount="4" falsecount="1"/>
+        <line num="47" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="5" type="stmt"/>
+        <line num="70" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="71" count="5" type="stmt"/>
+        <line num="72" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="76" count="4" type="cond" truecount="6" falsecount="0"/>
+        <line num="78" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="83" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="85" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="88" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="92" count="2" type="cond" truecount="4" falsecount="1"/>
+        <line num="94" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.worker">
+      <metrics statements="32" coveredstatements="31" conditionals="27" coveredconditionals="24" methods="6" coveredmethods="6"/>
+      <file name="worker.service.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/worker/worker.service.ts">
+        <metrics statements="32" coveredstatements="31" conditionals="27" coveredconditionals="24" methods="6" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="35" count="6" type="cond" truecount="6" falsecount="2"/>
+        <line num="36" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="45" count="6" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="73" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="77" count="3" type="stmt"/>
+        <line num="89" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="90" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="3" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ws">
+      <metrics statements="53" coveredstatements="52" conditionals="33" coveredconditionals="25" methods="12" coveredmethods="11"/>
+      <file name="ws.gateway.ts" path="/home/gsl/Downloads/full_stack_email_gateway-main/nest-email-gateway/src/ws/ws.gateway.ts">
+        <metrics statements="53" coveredstatements="52" conditionals="33" coveredconditionals="25" methods="12" coveredmethods="11"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="22" count="11" type="cond" truecount="3" falsecount="1"/>
+        <line num="24" count="14" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="28" count="14" type="stmt"/>
+        <line num="29" count="14" type="stmt"/>
+        <line num="30" count="14" type="stmt"/>
+        <line num="31" count="14" type="stmt"/>
+        <line num="33" count="14" type="cond" truecount="3" falsecount="1"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="43" count="5" type="stmt"/>
+        <line num="44" count="5" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="63" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="71" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="88" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="92" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="94" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="109" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="110" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="114" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
