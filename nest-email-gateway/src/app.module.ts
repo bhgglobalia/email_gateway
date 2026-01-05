@@ -53,6 +53,12 @@ import { HealthModule } from './health/health.module';
       entities: [User, Client, Mailbox, Event],
       migrations: ['dist/migrations/*.js'],
       migrationsRun: true,
+      ssl: true,
+      extra: {
+        ssl: {
+          rejectUnauthorized: false,
+        },
+      },
     }),
     AuthModule,
     ClientsModule,
