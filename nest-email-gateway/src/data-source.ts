@@ -12,6 +12,12 @@ const dataSource = new DataSource({
   migrations: ['src/migrations/*.ts'],
   synchronize: false,
   logging: false,
+  ssl: true,
+  extra: {
+    ssl: {
+      rejectUnauthorized: false,
+    },
+  },
 });
 
 export default dataSource;
